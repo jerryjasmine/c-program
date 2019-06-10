@@ -1,3 +1,6 @@
+//TASK 1
+//displaying the name , age, phoneno;
+
 #include<stdio.h>
 
 void main()
@@ -5,6 +8,7 @@ void main()
 {
 
 int age;
+  
 char n[50];
 
 char pno[10];
@@ -20,6 +24,7 @@ scanf("%d",&age);
 printf("Enter the phone no: ");
 
 scanf("%s",pno);
+
 printf("____________________________________________DISPLAY_____________________________________________________");
 
 printf("\nName:%s\nAge:%d\nPhone no:%s",n,age,pno);
